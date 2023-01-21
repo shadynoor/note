@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <body>
+        
+    <div class="popup" id="popup">
+        <div class="window">
+            <div class="window-head">
+                <p>Add New Note</p>
+                <div class="close">
+                    <i class="fa-solid fa-xmark" id="closePopup"></i>
+                </div>
+            </div>
+            <div class="note-body">
+                <label for="title">Title</label>
+                <input type="text" id="title">
+                <label for="description">Description</label>
+                <textarea id="description" cols="30" rows="5"></textarea>
+                <button id="newNoteBtn">Add Note</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <ul class="notes" id="notes">
+            <li class="add-note">
+                <div class="icon"id="addNote">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <p>Add New Note</p>
+            </li>
+
+            <!-- <li class="note">
+                <div class="details" id="noteDetails">
+                    <p>This is Title</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid sint iure voluptatum at impedit est quis assumenda voluptates exercitat</span>
+                </div>
+                <div class="actions">
+                    <span>Jan 20,2023</span>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-pen-to-square"></i> Edit</li>
+                            <li>
+                                <i class="fa-solid fa-trash"></i> Delete
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li> -->
+
+            <!-- <li class="note">
+                <div class="details">
+                    <p>This is Title</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid sint iure voluptatum at impedit est quis assumenda voluptates exercitat</span>
+                </div>
+                <div class="actions">
+                    <span>Jan 20,2023</span>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-pen-to-square"></i> Edit</li>
+                            <li>
+                                <i class="fa-solid fa-trash"></i> Delete
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="note">
+                <div class="details">
+                    <p>This is Title</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid sint iure voluptatum at impedit est quis assumenda voluptates exercitat</span>
+                </div>
+                <div class="actions">
+                    <span>Jan 20,2023</span>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-pen-to-square"></i> Edit</li>
+                            <li>
+                                <i class="fa-solid fa-trash"></i> Delete
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="note">
+                <div class="details">
+                    <p>This is Title</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid sint iure voluptatum at impedit est quis assumenda voluptates exercitat</span>
+                </div>
+                <div class="actions">
+                    <span>Jan 20,2023</span>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-pen-to-square"></i> Edit</li>
+                            <li>
+                                <i class="fa-solid fa-trash"></i> Delete
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="note">
+                <div class="details">
+                    <p>This is Title</p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid sint iure voluptatum at impedit est quis assumenda voluptates exercitat</span>
+                </div>
+                <div class="actions">
+                    <span>Jan 20,2023</span>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-pen-to-square"></i> Edit</li>
+                            <li>
+                                <i class="fa-solid fa-trash"></i> Delete
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+
+    
+    <script src="js.js"></script>
+</body>
+</html>
